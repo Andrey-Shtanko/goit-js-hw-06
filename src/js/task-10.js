@@ -30,9 +30,9 @@ function createBoxes(amount) {
   boxes.insertAdjacentHTML(`afterbegin`, markup);
 }
 
-function clearAll() {
+function destroyBoxes() {
   boxes.innerHTML = ``;
 }
 
 createBtn.addEventListener(`click`, createBoxes);
-destroyBtn.addEventListener(`click`, clearAll);
+destroyBtn.addEventListener(`click`, destroyBoxes);
