@@ -20,10 +20,3 @@ for (const ingridient of ingredients) {
 }
 
 list.append(...arrLi);
-
-const arr = [1, 3, 4];
-let num1 = 3;
-const arr2 = arr;
-let num2 = num1;
-arr.splice(1, 1);
-num1 += 5;
